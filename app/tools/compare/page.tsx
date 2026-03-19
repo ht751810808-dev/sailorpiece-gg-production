@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import fruitsData from '@/data/fruits.json';
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function CompareToolPage() {
   const [item1, setItem1] = useState(fruitsData[0]);
@@ -36,10 +37,18 @@ export default function CompareToolPage() {
                 <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
                   <td style={{ width: '20%', padding: '1rem', color: 'var(--color-text-muted)', textAlign: 'right', fontWeight: 'bold' }}>Visual</td>
                   <td style={{ width: '40%', padding: '2rem', background: 'rgba(255,255,255,0.02)' }}>
-                    {item1.imageUrl ? <img src={item1.imageUrl} style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '12px', border: '2px solid #4DEEEA' }} /> : 'No Image'}
+                    {item1.imageUrl ? (
+                      <div style={{ width: '150px', height: '150px', margin: '0 auto', position: 'relative' }}>
+                         <Image src={item1.imageUrl} alt={item1.name} fill style={{ objectFit: 'cover', borderRadius: '12px', border: '2px solid #4DEEEA' }} />
+                      </div>
+                    ) : 'No Image'}
                   </td>
                   <td style={{ width: '40%', padding: '2rem', background: 'rgba(255,255,255,0.01)' }}>
-                    {item2.imageUrl ? <img src={item2.imageUrl} style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '12px', border: '2px solid #74EE15' }} /> : 'No Image'}
+                    {item2.imageUrl ? (
+                      <div style={{ width: '150px', height: '150px', margin: '0 auto', position: 'relative' }}>
+                        <Image src={item2.imageUrl} alt={item2.name} fill style={{ objectFit: 'cover', borderRadius: '12px', border: '2px solid #74EE15' }} />
+                      </div>
+                    ) : 'No Image'}
                   </td>
                 </tr>
                 {/* Stats */}

@@ -35,7 +35,7 @@ export default function LiveMeta() {
 
                <div style={{ borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '1.5rem' }}>
                   <p style={{ color: 'rgba(255,255,255,0.6)', lineHeight: 1.6, margin: 0 }}>
-                    <strong>Verdict:</strong> Using Dragon's massive AoE combined with True Aizen's stun lock allows for an unblockable one-shot combo. Recommended stat split: 2,500 Fruit / 2,000 Sword.
+                    <strong>Verdict:</strong> Using Dragon&apos;s massive AoE combined with True Aizen&apos;s stun lock allows for an unblockable one-shot combo. Recommended stat split: 2,500 Fruit / 2,000 Sword.
                   </p>
                </div>
             </div>

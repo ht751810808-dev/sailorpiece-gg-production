@@ -20,7 +20,7 @@ export default function BuildOptimizerPage() {
     if (selectedSword?.damageRating) score += selectedSword.damageRating;
     // Simple mock logic for final score
     return Math.min(100, (score * 5));
-  }, [selectedFruit, selectedSword, selectedRace, selectedAcc]);
+  }, [selectedFruit, selectedSword]);
 
   return (
     <>
