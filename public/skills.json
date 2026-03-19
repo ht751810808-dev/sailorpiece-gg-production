@@ -1,0 +1,69 @@
+{
+  "skills": [
+    {
+      "id": "nebula-lure",
+      "name": "Nebula Lure",
+      "tier": "S",
+      "category": "Active",
+      "description": "Summons a cosmic vortex that attracts all nearby mythical fish to your line.",
+      "stats": { "Power": 95, "Luck": 98, "Speed": 70 },
+      "icon": "✨"
+    },
+    {
+      "id": "reality-warp",
+      "name": "Reality Warp",
+      "tier": "S",
+      "category": "Ultimate",
+      "description": "Instantly teleports the fish to your inventory without the mini-game.",
+      "stats": { "Power": 100, "Luck": 50, "Speed": 100 },
+      "icon": "🌀"
+    },
+    {
+      "id": "plasma-hook",
+      "name": "Plasma Hook",
+      "tier": "A",
+      "category": "Passive",
+      "description": "Burns the fish, reducing its fight energy 50% faster.",
+      "stats": { "Power": 85, "Luck": 40, "Speed": 60 },
+      "icon": "⚡"
+    },
+    {
+      "id": "hydro-blast",
+      "name": "Hydro Blast",
+      "tier": "A",
+      "category": "Active",
+      "description": "A powerful jet of water that exhausts heavy titans quickly.",
+      "stats": { "Power": 90, "Luck": 20, "Speed": 80 },
+      "icon": "🌊"
+    },
+    {
+      "id": "echo-pulse",
+      "name": "Echo Pulse",
+      "tier": "B",
+      "category": "Passive",
+      "description": "Highlights rare fish in the water with a golden aura.",
+      "stats": { "Power": 10, "Luck": 90, "Speed": 30 },
+      "icon": "🔔"
+    },
+    {
+      "id": "swift-cast",
+      "name": "Swift Cast",
+      "tier": "B",
+      "category": "Active",
+      "description": "Reduces the casting animation time by 40%.",
+      "stats": { "Power": 20, "Luck": 10, "Speed": 95 },
+      "icon": "🏹"
+    },
+    {
+      "id": "basic-pull",
+      "name": "Standard Pull",
+      "tier": "C",
+      "category": "Active",
+      "description": "The fundamental technique. Reliable but lacks power.",
+      "stats": { "Power": 40, "Luck": 10, "Speed": 40 },
+      "icon": "🎣"
+    }
+  ],
+  "categories": ["All", "Active", "Passive", "Ultimate"],
+  "tiers": ["S", "A", "B", "C"]
+}

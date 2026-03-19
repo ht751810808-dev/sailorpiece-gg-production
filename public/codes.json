@@ -1,0 +1,41 @@
+{
+  "roblox_game_url": "https://www.roblox.com/games/115893378298440/Titan-Fishing",
+  "codes": [
+    {
+      "code": "TITANLAUNCH",
+      "reward": "1,000 Cash + Rod Skin",
+      "status": "active",
+      "added": "2026-03-15"
+    },
+    {
+      "code": "FREECASH2026",
+      "reward": "500 Free Cash",
+      "status": "active",
+      "added": "2026-03-10"
+    },
+    {
+      "code": "NEONFISH",
+      "reward": "Neon Rod Skin",
+      "status": "active",
+      "added": "2026-03-01"
+    },
+    {
+      "code": "CYBERLURE",
+      "reward": "750 Cash",
+      "status": "active",
+      "added": "2026-02-20"
+    },
+    {
+      "code": "DEEPDIVE100",
+      "reward": "1,000 Cash + Boost",
+      "status": "expired",
+      "added": "2026-02-01"
+    },
+    {
+      "code": "TITANFAN",
+      "reward": "250 Cash",
+      "status": "expired",
+      "added": "2026-01-28"
+    }
+  ]
+}
