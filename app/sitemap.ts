@@ -5,7 +5,7 @@ import bossesData from '@/data/bosses.json';
 import islandsData from '@/data/islands.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.sailorpiece.com';
+  const baseUrl = 'https://sailorpiece.help';
 
   // Base routes
   const routes = [

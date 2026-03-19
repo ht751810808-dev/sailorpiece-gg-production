@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Column 1: Brand */}
           <div>
             <h3 style={{ fontSize: '1.5rem', color: '#fff', marginBottom: '1rem', margin: 0 }}>
-              Sailor<span style={{ color: '#4DEEEA' }}>Piece</span>.gg
+              Sailor<span style={{ color: '#4DEEEA' }}>Piece</span>.help
             </h3>
             <p style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem', lineHeight: 1.6 }}>
               The #1 community-driven resource for Sailor Piece. Verified codes, mythical drops, and professional PvP meta strategies.
@@ -23,42 +23,40 @@ export default function Footer() {
               <li><Link href="/database/fruits" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Devil Fruits</Link></li>
               <li><Link href="/database/swords" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Swords & Weapons</Link></li>
               <li><Link href="/database/races" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Races & Lineages</Link></li>
-              <li><Link href="/database/islands" style={{ color: '#74EE15', textDecoration: 'none', transition: 'color 0.2s' }}>Islands & Maps</Link></li>
+              <li><Link href="/database/islands" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Islands & Maps</Link></li>
               <li><Link href="/database/dungeons" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Dungeons & Raids</Link></li>
               <li><Link href="/database/bosses" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>World Bosses</Link></li>
-              <li><Link href="/database/accessories" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Accessories</Link></li>
-              <li><Link href="/database/runes" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Runes & Glyphs</Link></li>
-              <li><Link href="/database/traits" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Traits (Passives)</Link></li>
             </ul>
           </div>
 
-          {/* Column 3: Tier Lists & Builds */}
+          {/* Column 3: Tools & Guides */}
           <div>
-            <h4 style={{ color: '#fff', fontSize: '1.1rem', marginBottom: '1.2rem' }}>Tier Lists</h4>
-            <ul style={{ listStyleType: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.8rem', marginBottom: '2rem' }}>
-              <li><Link href="/tier-lists" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Global Tier Lists</Link></li>
-              <li><Link href="/builds" style={{ color: '#FF007F', fontWeight: 'bold', textDecoration: 'none', transition: 'color 0.2s' }}>Meta Builds HUB</Link></li>
-              <li><Link href="/codes" style={{ color: '#4DEEEA', fontWeight: 'bold', textDecoration: 'none', transition: 'color 0.2s' }}>Active Codes (2026)</Link></li>
-            </ul>
-
-            <h4 style={{ color: '#fff', fontSize: '1.1rem', marginBottom: '1.2rem' }}>Guides & Community</h4>
+            <h4 style={{ color: '#fff', fontSize: '1.1rem', marginBottom: '1.2rem' }}>Pro Tools</h4>
             <ul style={{ listStyleType: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
-              <li><Link href="/guides" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Beginner Guides</Link></li>
-              <li><Link href="/news" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Patch Notes</Link></li>
-              <li><Link href="/faq" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>FAQ / Support</Link></li>
+              <li><Link href="/tools/gacha-simulator" style={{ color: '#4DEEEA', fontWeight: 'bold', textDecoration: 'none', transition: 'color 0.2s' }}>🎰 Gacha Simulator</Link></li>
+              <li><Link href="/tools/build-optimizer" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>🛠️ Build Optimizer</Link></li>
+              <li><Link href="/codes" style={{ color: '#FFE700', fontWeight: 'bold', textDecoration: 'none', transition: 'color 0.2s' }}>Active Codes</Link></li>
+              <li><Link href="/builds" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Meta Builds</Link></li>
             </ul>
           </div>
 
-          {/* Column 4: Interactive Tools */}
+          {/* Column 4: Friendly Links */}
           <div>
-            <h4 style={{ color: '#fff', fontSize: '1.1rem', marginBottom: '1.2rem' }}>Pro Tools <span style={{ background: '#FFE700', color: '#000', padding: '0.1rem 0.4rem', borderRadius: '4px', fontSize: '0.7rem', marginLeft: '0.5rem' }}>HOT</span></h4>
+            <h4 style={{ color: '#fff', fontSize: '1.1rem', marginBottom: '1.2rem' }}>Friendly Links</h4>
             <ul style={{ listStyleType: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
-              <li><Link href="/tools/gacha-simulator" style={{ color: '#4DEEEA', fontWeight: 'bold', textDecoration: 'none', transition: 'color 0.2s' }}>🎰 Gacha Spin Simulator</Link></li>
-              <li><Link href="/tools/build-optimizer" style={{ color: '#74EE15', fontWeight: 'bold', textDecoration: 'none', transition: 'color 0.2s' }}>🛠️ Build Optimizer</Link></li>
-              <li><Link href="/tools/price-guide" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Trading Value Guide</Link></li>
-              <li><Link href="/tools/damage-calculator" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Combat Damage Calc</Link></li>
-              <li><Link href="/tools/compare" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Item Attributes Compare</Link></li>
-              <li><Link href="/tools/calculator" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', transition: 'color 0.2s' }}>Stat Optimization</Link></li>
+              <li><a href="https://www.titanfishing.art/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', fontSize: '0.9rem' }}>Titan Fishing</a></li>
+              <li><a href="http://impostergame.pro/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', fontSize: '0.9rem' }}>Imposter Game</a></li>
+              <li><a href="https://chatgptcaricature.art" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', fontSize: '0.9rem' }}>ChatGPT Caricature</a></li>
+              <li><a href="https://teamnamegenerator.click" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', fontSize: '0.9rem' }}>Team Name Generator</a></li>
+            </ul>
+          </div>
+
+          {/* Column 5: Legal */}
+          <div>
+             <h4 style={{ color: '#fff', fontSize: '1.1rem', marginBottom: '1.2rem' }}>Support</h4>
+             <ul style={{ listStyleType: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
+              <li><Link href="/faq" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', fontSize: '0.9rem' }}>FAQ</Link></li>
+              <li><Link href="/news" style={{ color: 'var(--color-text-muted)', textDecoration: 'none', fontSize: '0.9rem' }}>News</Link></li>
             </ul>
           </div>
 
