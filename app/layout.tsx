@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: 'Sailor Piece Codes & Wiki 2026 – Roblox Strategy Guide',
@@ -51,7 +52,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* 已按要求清理所有广告和统计代码 */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-214E5342DG"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-214E5342DG');
+          `}
+        </Script>
       </head>
       <body>{children}</body>
     </html>
