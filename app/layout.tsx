@@ -16,12 +16,12 @@ export const metadata: Metadata = {
     'sailor piece guide',
     'roblox sailor piece',
   ],
-  metadataBase: new URL('https://sailorpiece.help'),
+  metadataBase: new URL('https://endfield.click'),
   openGraph: {
     title: 'Sailor Piece Codes & Wiki 2026',
     description:
       'The ultimate Sailor Piece Roblox wiki. Get the latest active codes, devil fruit tier lists, sword guides, map locations, and build strategies.',
-    url: 'https://sailorpiece.help',
+    url: 'https://endfield.click',
     siteName: 'Sailor Piece Database',
     images: [
       {

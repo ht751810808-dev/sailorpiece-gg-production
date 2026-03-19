@@ -34,7 +34,7 @@ export default function Header() {
       <div style={{ display: 'flex', alignItems: 'center', gap: '3rem' }}>
         <Link href="/" style={{ textDecoration: 'none' }}>
           <h1 style={{ fontSize: '1.8rem', color: '#fff', margin: 0 }}>
-            Sailor<span style={{ color: '#4DEEEA' }}>Piece</span><span style={{ color: 'var(--color-text-muted)', fontSize: '1.2rem'}}>.gg</span>
+            Sailor<span style={{ color: '#4DEEEA' }}>Piece</span><span style={{ color: 'var(--color-text-muted)', fontSize: '1.2rem'}}>.click</span>
           </h1>
         </Link>
         
@@ -47,7 +47,7 @@ export default function Header() {
               onClick={() => setWikiOpen(!wikiOpen)}
               style={{ background: 'none', border: 'none', color: '#fff', fontSize: '1rem', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: 500 }}
             >
-              Wiki 维基百科 
+              Wiki
               <span style={{ fontSize: '0.8rem', transform: wikiOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }}>▼</span>
             </button>
 
@@ -60,23 +60,23 @@ export default function Header() {
                 boxShadow: '0 10px 30px rgba(0,0,0,0.5)', zIndex: 105,
                 border: '1px solid rgba(0,0,0,0.1)'
               }}>
-                <DropdownItem href="/database/fruits" label="Devil Fruits 恶魔果实" />
-                <DropdownItem href="/database/swords" label="Swords 剑" />
-                <DropdownItem href="/database/races" label="Races 种族" />
-                <DropdownItem href="/database/bosses" label="Bosses 颠簸" />
-                <DropdownItem href="/database/accessories" label="Accessories 配件" />
-                <DropdownItem href="/database/runes" label="Runes 符文" />
-                <DropdownItem href="/database/clans" label="Clans 氏族" />
-                <DropdownItem href="/database/traits" label="Traits 特征" />
-                <DropdownItem href="/database/islands" label="Islands 岛屿" />
-                <DropdownItem href="/database/dungeons" label="Dungeons 地下城" />
+                <DropdownItem href="/database/fruits" label="Devil Fruits" />
+                <DropdownItem href="/database/swords" label="Swords & Weapons" />
+                <DropdownItem href="/database/races" label="Races & Lineages" />
+                <DropdownItem href="/database/bosses" label="World Bosses" />
+                <DropdownItem href="/database/accessories" label="Accessories" />
+                <DropdownItem href="/database/runes" label="Runes & Glyphs" />
+                <DropdownItem href="/database/clans" label="Clans" />
+                <DropdownItem href="/database/traits" label="Passive Traits" />
+                <DropdownItem href="/database/islands" label="Islands & Maps" />
+                <DropdownItem href="/database/dungeons" label="Dungeons & Raids" />
               </div>
             )}
           </div>
 
-          <Link href="/tier-lists" className="nav-link">Tier Lists 角色强度排名</Link>
-          <Link href="/builds" className="nav-link">Builds 构建</Link>
-          <Link href="/codes" className="nav-link">Codes 代码</Link>
+          <Link href="/tier-lists" className="nav-link">Tier Lists</Link>
+          <Link href="/builds" className="nav-link">Builds</Link>
+          <Link href="/codes" className="nav-link">Codes</Link>
           
           {/* Tools Dropdown */}
           <div ref={toolsRef} style={{ position: 'relative', height: '100%', display: 'flex', alignItems: 'center' }}>
@@ -85,7 +85,7 @@ export default function Header() {
               onClick={() => setToolsOpen(!toolsOpen)}
               style={{ background: 'none', border: 'none', color: '#fff', fontSize: '1rem', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: 500 }}
             >
-              Tools 工具 
+              Tools
               <span style={{ fontSize: '0.8rem', transform: toolsOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }}>▼</span>
             </button>
 
@@ -98,18 +98,18 @@ export default function Header() {
                 boxShadow: '0 10px 30px rgba(0,0,0,0.5)', zIndex: 105,
                 border: '1px solid rgba(0,0,0,0.1)'
               }}>
-                <DropdownItem href="/tools/gacha-simulator" label="🎰 Gacha Simulator 抽卡模拟" />
-                <DropdownItem href="/tools/build-optimizer" label="🛠️ Build Optimizer 构建优化" />
-                <DropdownItem href="/tools/price-guide" label="💰 Price Guide 价格指南" />
-                <DropdownItem href="/tools/damage-calculator" label="⚔️ Damage Calc 伤害计算" />
-                <DropdownItem href="/tools/compare" label="⚖️ Compare Items 属性对比" />
-                <DropdownItem href="/tools/calculator" label="🔢 Stat Optimizer 属性优化" />
+                <DropdownItem href="/tools/gacha-simulator" label="🎰 Gacha Simulator" />
+                <DropdownItem href="/tools/build-optimizer" label="🛠️ Build Optimizer" />
+                <DropdownItem href="/tools/price-guide" label="💰 Trading Prices" />
+                <DropdownItem href="/tools/damage-calculator" label="⚔️ Damage Calc" />
+                <DropdownItem href="/tools/compare" label="⚖️ Item Compare" />
+                <DropdownItem href="/tools/calculator" label="🔢 Stat Optimizer" />
               </div>
             )}
           </div>
 
-          <Link href="/guides" className="nav-link">Guides 指南</Link>
-          <Link href="/news" className="nav-link">News 消息</Link>
+          <Link href="/guides" className="nav-link">Guides</Link>
+          <Link href="/news" className="nav-link">News</Link>
           <div style={{ marginLeft: '1.5rem' }}>
             <SearchBar />
           </div>
