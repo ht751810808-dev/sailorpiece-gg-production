@@ -1,0 +1,52 @@
+[
+  { 
+    "id": "starter-island", 
+    "name": "Starter Island (Windmill Village)", 
+    "levels": "1 - 50", 
+    "boss": "Bandit Leader", 
+    "description": "The peaceful starting zone where you punch bandits.",
+    "quests": [
+      { "name": "Bandit Hunt", "reward": "$500, 100 Exp", "target": "Kill 5 Bandits" },
+      { "name": "Boss Challenge", "reward": "$2,000, 500 Exp", "target": "Defeat Bandit Leader" }
+    ],
+    "trainers": ["Basic Combat Trainer"],
+    "drops": ["Wooden Club (Common)"]
+  },
+  { 
+    "id": "monkey-jungle", 
+    "name": "Monkey Jungle", 
+    "levels": "50 - 200", 
+    "boss": "Gorilla King", 
+    "description": "A dense jungle full of aggressive monkeys and hidden fruit trees.",
+    "quests": [
+      { "name": "Crazed Monkeys", "reward": "$1,500, 800 Exp", "target": "Kill 8 Monkeys" },
+      { "name": "King's Wrath", "reward": "$5,000, 2,500 Exp", "target": "Defeat Gorilla King" }
+    ],
+    "trainers": ["Geppo Trainer"],
+    "drops": ["Monkey Staff (Rare)"]
+  },
+  { 
+    "id": "desert-ruins", 
+    "name": "Desert Ruins (Alabasta)", 
+    "levels": "200 - 500", 
+    "boss": "Sand Croc", 
+    "description": "A massive scorching desert. Logia fruits are highly recommended here.",
+    "quests": [
+      { "name": "Desert Bandits", "reward": "$4,000, 5,000 Exp", "target": "Kill 10 Desert Bandits" }
+    ],
+    "trainers": ["Busoshoku Haki Trainer"],
+    "drops": ["Hook Blade (Legendary)"]
+  },
+  { 
+    "id": "sky-sanctuary", 
+    "name": "Sky Sanctuary", 
+    "levels": "500 - 1500", 
+    "boss": "Thunder God Enel", 
+    "description": "Floating islands with high-tier drops and observation haki trainers.",
+    "quests": [
+      { "name": "Holy Soldiers", "reward": "$15,000, 25,000 Exp", "target": "Kill 12 Sky Guards" }
+    ],
+    "trainers": ["Kenbunshoku Haki Trainer"],
+    "drops": ["Golden Pole (Legendary)"]
+  }
+]

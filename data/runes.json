@@ -1,0 +1,6 @@
+[
+  { "id": "vitality", "name": "Rune of Vitality", "tier": "Common", "effect": "+15% Max HP", "dropLocation": "Starter Island Boss" },
+  { "id": "swiftness", "name": "Rune of Swiftness", "tier": "Rare", "effect": "+10% Movement Speed, +5% Dash Distance", "dropLocation": "Monkey Jungle Secrets" },
+  { "id": "destruction", "name": "Rune of Destruction", "tier": "Legendary", "effect": "All M1 attacks ignore 20% of enemy armor.", "dropLocation": "Volcano Raid Drop" },
+  { "id": "omniscience", "name": "Rune of Omniscience", "tier": "Mythical", "effect": "Infinite Observation Haki. Reduces dodge cooldown to 0.", "dropLocation": "Sky Sanctuary Treasure" }
+]

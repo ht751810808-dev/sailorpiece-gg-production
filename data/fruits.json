@@ -1,0 +1,80 @@
+[
+  {
+    "id": "dragon",
+    "name": "Dragon Fruit",
+    "type": "Mythical Zoan",
+    "tier": "S+",
+    "rarity": "Mythical",
+    "priceBeli": 4500000,
+    "priceGems": 3500,
+    "description": "The Dragon Fruit transforms the user into a powerful Eastern Dragon. Currently considered the most well-rounded fruit in the game — it combines flight, high burst damage, and a full dragon transformation.",
+    "imageUrl": "/images/scraped/fruits_dragon.webp",
+    "skills": [
+      { "name": "Dragon Claw", "desc": "Slashes with massive dragon claws, knocking back enemies.", "mastery": 1 },
+      { "name": "Dragon Breath", "desc": "Breathes a stream of fire dealing continuous damage in a wide arc.", "mastery": 100 },
+      { "name": "Dragon Flight", "desc": "Full dragon transformation — transforms user into a dragon for high-speed flight.", "mastery": 250 }
+    ],
+    "stats": { "Power": 10, "Speed": 7, "Defense": 9, "Range": 8, "Utility": 9 },
+    "pros": ["Considered the #1 most well-rounded fruit", "Full dragon transformation with flight", "High burst damage output", "Strong in both PvP and PvE"],
+    "cons": ["Mythical rarity — very hard to obtain", "Large hitbox in dragon form", "Requires massive mastery investment"],
+    "howToGet": "Fruit Spin, Buy with Cash, or Trading. Highly demanded."
+  },
+  {
+    "id": "light",
+    "name": "Light Fruit",
+    "type": "Logia",
+    "tier": "S",
+    "rarity": "Legendary",
+    "priceBeli": 2500000,
+    "priceGems": 2500,
+    "description": "Grants the user the ability to create, control, and transform into light. It has the fastest movement speed in the game, making it legendary for grinding.",
+    "imageUrl": "/images/scraped/fruits_light.webp",
+    "skills": [
+      { "name": "Light Beam", "desc": "Fires a concentrated laser beam that travels instantly.", "mastery": 1 },
+      { "name": "Light Barrage", "desc": "Rains down dozens of light arrows on a target area.", "mastery": 150 },
+      { "name": "Light Speed Flight", "desc": "Transforms user into pure light for instant travel across islands.", "mastery": 0 }
+    ],
+    "stats": { "Power": 8, "Speed": 10, "Defense": 5, "Range": 10, "Utility": 7 },
+    "pros": ["Fastest flight and traversal", "Extremely spammable AOE moves", "Logia immunity to low level mobs"],
+    "cons": ["Linear attacks can be dodged in PvP", "Damage falls off against top-tier endgame bosses"],
+    "howToGet": "Fruit Dealer, Gacha Spins, or Finding under trees."
+  },
+  {
+    "id": "kitsune",
+    "name": "Kitsune Fruit",
+    "type": "Mythical Zoan",
+    "tier": "S+",
+    "rarity": "Mythical",
+    "priceBeli": 8000000,
+    "priceGems": 5000,
+    "description": "The peak of mobility and burst damage. Transform into a legendary nine-tailed fox. Excels in rapid PvP combos and absolute battlefield dominance.",
+    "imageUrl": "/images/scraped/fruits_kitsune.webp",
+    "skills": [
+      { "name": "Fox Fire", "desc": "Summons tracking blue flames.", "mastery": 1 },
+      { "name": "Tails of Vengeance", "desc": "Unleashes all 9 tails in a massive AOE strike.", "mastery": 300 }
+    ],
+    "stats": { "Power": 9, "Speed": 10, "Defense": 6, "Range": 7, "Utility": 8 },
+    "pros": ["Highest mobility on land", "Incredible PvP combo potential", "M1 attacks deal massive damage"],
+    "cons": ["The most expensive fruit", "High skill ceiling for combos"],
+    "howToGet": "Extreme luck in Gacha, high-tier trading."
+  },
+  {
+    "id": "fiend",
+    "name": "Fiend Fruit",
+    "type": "Paramecia",
+    "tier": "A",
+    "rarity": "Rare",
+    "priceBeli": 1200000,
+    "priceGems": 1200,
+    "description": "A very solid mid-game fruit focusing on life-steal and shadow manipulation. Great for sustaining health during boss fights.",
+    "imageUrl": "/images/scraped/fruits_fiend.webp",
+    "skills": [
+      { "name": "Shadow Drain", "desc": "Lifesteals HP from target.", "mastery": 1 },
+      { "name": "Nightmare Realm", "desc": "Traps enemies in a dark sphere.", "mastery": 100 }
+    ],
+    "stats": { "Power": 7, "Speed": 6, "Defense": 8, "Range": 6, "Utility": 8 },
+    "pros": ["Excellent sustain and HP regen", "Good crowd control"],
+    "cons": ["Low raw burst damage", "Slow animations"],
+    "howToGet": "Common drop from World Bosses."
+  }
+]

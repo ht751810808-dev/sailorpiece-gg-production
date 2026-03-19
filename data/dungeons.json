@@ -1,0 +1,4 @@
+[
+  { "id": "shadow-realm", "name": "Shadow Realm", "levelReq": 1000, "drops": "Shadow Daggers, Dark Crystal", "description": "A solo or co-op instance filled with shadow clones." },
+  { "id": "volcano-core", "name": "Volcano Core", "levelReq": 2500, "drops": "Magma Core, Destruction Rune", "description": "Raid the core of the volcano to summon the Magma Admiral." }
+]

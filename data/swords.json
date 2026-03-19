@@ -1,0 +1,46 @@
+[
+  {
+    "id": "escanor",
+    "name": "Escanor's Axe (Rhitta)",
+    "tier": "S+",
+    "rarity": "Mythical",
+    "obtainMethod": "Defeat Escanor Boss (0.5% Drop Rate)",
+    "description": "A massive divine battle axe radiating intense heat. Its attacks deal heavily amplified burn damage, especially potent against unarmored opponents.",
+    "damageRating": 10,
+    "speedRating": 4,
+    "imageUrl": "/images/scraped/swords_escanor.webp"
+  },
+  {
+    "id": "shadow-monarch",
+    "name": "Shadow Daggers",
+    "tier": "S",
+    "rarity": "Legendary",
+    "obtainMethod": "Shadow Realm Dungeon Raid",
+    "description": "Dual glowing blue daggers that enhance movement speed and allow the user to summon shadow decoys during combat.",
+    "damageRating": 8,
+    "speedRating": 10,
+    "imageUrl": "/images/scraped/swords_shadow-monarch.webp"
+  },
+  {
+    "id": "true-aizen",
+    "name": "Kyoka Suigetsu",
+    "tier": "S+",
+    "rarity": "Mythical",
+    "obtainMethod": "True Aizen Raid",
+    "description": "The sword of absolute hypnosis. Landing an M1 disables the opponent's observation Haki for 3 seconds.",
+    "damageRating": 9,
+    "speedRating": 8,
+    "imageUrl": "/images/scraped/swords_true-aizen.webp"
+  },
+  {
+    "id": "yamato",
+    "name": "Yamato (Vergil)",
+    "tier": "S",
+    "rarity": "Mythical",
+    "obtainMethod": "Vergil World Boss (1% Drop)",
+    "description": "A legendary dark-forged katana capable of unleashing Judgment Cut combos that slice through reality itself.",
+    "damageRating": 10,
+    "speedRating": 9,
+    "imageUrl": "/images/scraped/swords_yamato.webp"
+  }
+]

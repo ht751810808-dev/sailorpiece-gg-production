@@ -1,10 +1,12 @@
 'use client';
 
 const codes = [
-  { code: 'HAKIUPDATE', reward: '500,000 Beli & 250 Gems', status: 'Active', color: '#10B981' },
-  { code: 'NEWFRUITS', reward: 'Race Reroll & Stat Reset', status: 'Active', color: '#10B981' },
-  { code: 'SAILOR100K', reward: '1,000 Gems & Clan Reroll', status: 'Active', color: '#10B981' },
-  { code: 'SORRYFORSHUTDOWN', reward: 'x2 EXP Boost (30 Mins)', status: 'Active', color: '#10B981' },
+  { code: 'THEINSANE150KCCU', reward: 'Rewards (Req Lv 8,500)', status: 'Active', color: '#10B981' },
+  { code: 'TYFOR140KCCUILY', reward: 'Rewards (Req Lv 8,500)', status: 'Active', color: '#10B981' },
+  { code: 'RESTARTSORRYYYY', reward: 'Rewards (Req Lv 5,000)', status: 'Active', color: '#10B981' },
+  { code: 'BOSSRUSH', reward: '250k Beli, 400 Gems, Rerolls', status: 'Active', color: '#10B981' },
+  { code: 'SINOFPRIDE', reward: 'Free Rewards (Req Lv 3,500)', status: 'Active', color: '#10B981' },
+  { code: '30MVISITS', reward: 'Free rewards (Req Lv 8,000)', status: 'Active', color: '#10B981' },
   { code: 'GEAR5', reward: 'Expired', status: 'Expired', color: '#EF4444' },
 ];
 
@@ -17,7 +19,7 @@ export default function CodesSection() {
             Latest <span style={{ color: '#4DEEEA' }}>Sailor Piece Codes</span>
           </h2>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
-            Redeem these active Roblox codes for free Beli, Gems, Race Rerolls, and powerful EXP boosts. Updated daily!
+            Genuine and verified active codes (Updated March 2026). Click any code to copy. Pay attention to the level requirements!
           </p>
         </div>
 
@@ -53,7 +55,7 @@ export default function CodesSection() {
                 onClick={() => {
                   if (item.status === 'Active') {
                      navigator.clipboard.writeText(item.code);
-                     alert(`Copied code: ${item.code}`);
+                     alert(`Copied real active code: ${item.code}`);
                   }
                 }}
               >

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "meta-one-shot",
+    "name": "The Infinite Stun (One-Shot Meta)",
+    "tier": "S+",
+    "type": "PvP Complete Loadout",
+    "components": {
+      "fruit": "Dark Fruit (Awakened)",
+      "sword": "Yamato",
+      "race": "Swordblessed",
+      "accessory": "Manipulator Outfit"
+    },
+    "description": "The absolute most dominant and slightly toxic build in the current 2026 PvP meta. Use Dark's Black Hole to suck enemies in and root them. Before the stun ends, immediately swap to Yamato for a 4-hit true combo, proccing the Swordblessed's M1 passive burst. The Manipulator Outfit ensures you survive any ambush retaliation.",
+    "combo": "Dark Z -> Dark X -> Dash -> Yamato Z -> Yamato X -> M1 x4"
+  },
+  {
+    "id": "pve-farmer",
+    "name": "Absolute Grind (PvE Afk)",
+    "tier": "S",
+    "type": "PvE Farming Loadout",
+    "components": {
+      "fruit": "Light Fruit",
+      "sword": "None (Fruit Main)",
+      "race": "Galevorn",
+      "accessory": "Saber Armor"
+    },
+    "description": "Logia immunity handles all the low-level mobs, while Light's massive AOE and Galevorn's infinite Sky Jumps let you herd 20+ enemies at once effortlessly from above. The ultimate build for hitting the maximum level cap in days instead of weeks.",
+    "combo": "Sky Jump -> Herd Mobs -> Light V -> Light Z -> Repeat"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  { 
+    "id": "sukuna", 
+    "name": "Sukuna", 
+    "location": "Shibuya Station (Raid)", 
+    "spawnRequirements": "Spawns automatically every 20 minutes.", 
+    "drops": ["Malevolent Key (30%)", "Cursed Finger (20%)", "Dismantle Fang (8%)", "Sukuna Collar (4%)", "Title: The Disgraced One"],
+    "imageUrl": "/images/boss_sukuna.png"
+  },
+  { 
+    "id": "saber", 
+    "name": "Artoria (Saber)", 
+    "location": "Camelot Plains", 
+    "spawnRequirements": "Requires Excalibur Sheath & 1,000,000 Beli", 
+    "drops": ["Holy Grail Fragment (10%)", "Saber Armor (2%)", "Title: King of Knights"],
+    "imageUrl": ""
+  },
+  { 
+    "id": "urahara", 
+    "name": "Urahara Kisuke", 
+    "location": "Soul Society", 
+    "spawnRequirements": "Spawns every 15 mins during Night cycle", 
+    "drops": ["Benihime Replica (5%)", "Bucket Hat (10%)", "Soul Candy (50%)"],
+    "imageUrl": ""
+  },
+  { 
+    "id": "yamato", 
+    "name": "Vergil", 
+    "location": "Qliphoth Tree", 
+    "spawnRequirements": "Offer 10 Demonic Shards", 
+    "drops": ["Yamato Sword (1%)", "Motivation Orb (5%)", "Judgement Outfit (2%)", "Title: Alpha and Omega"],
+    "imageUrl": "/images/scraped/swords_yamato.webp"
+  }
+]

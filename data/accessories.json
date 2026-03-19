@@ -1,0 +1,42 @@
+[
+  { 
+    "id": "a1", 
+    "name": "Gojo Blindfold", 
+    "tier": "Legendary", 
+    "buff": "+25% Damage, +40% Defense", 
+    "dropFrom": "Gojo Boss",
+    "imageUrl": "/images/acc_blindfold.png"
+  },
+  { 
+    "id": "a2", 
+    "name": "Saber Armor", 
+    "tier": "Legendary", 
+    "buff": "+20% Damage, +35% Defense, +15% Damage Reduction", 
+    "dropFrom": "Saber Boss",
+    "imageUrl": ""
+  },
+  { 
+    "id": "a3", 
+    "name": "Yuji Hair", 
+    "tier": "Legendary", 
+    "buff": "+22% Damage, +30% Defense, +12% Damage Reduction", 
+    "dropFrom": "Yuji Boss",
+    "imageUrl": ""
+  },
+  { 
+    "id": "a4", 
+    "name": "Imperial Outfit", 
+    "tier": "Mythical", 
+    "buff": "+90% Defense, +65% Damage, +15% Damage Reduction", 
+    "dropFrom": "Yamato Boss",
+    "imageUrl": ""
+  },
+  { 
+    "id": "a5", 
+    "name": "Manipulator Outfit", 
+    "tier": "Mythical", 
+    "buff": "+100% Defense, +72% Damage, +15% Damage Reduction", 
+    "dropFrom": "True Aizen Boss",
+    "imageUrl": ""
+  }
+]

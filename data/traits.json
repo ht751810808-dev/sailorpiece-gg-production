@@ -1,0 +1,6 @@
+[
+  { "id": "thick-skinned", "name": "Thick Skinned", "rarity": "Common (40%)", "effect": "-5% Melee Damage Taken" },
+  { "id": "agile", "name": "Agile", "rarity": "Rare (25%)", "effect": "-15% Dash Cooldown" },
+  { "id": "vampiric", "name": "Vampiric", "rarity": "Epic (10%)", "effect": "M1s heal for 2% of damage dealt." },
+  { "id": "conquerors-will", "name": "Conqueror's Will", "rarity": "Mythical (1%)", "effect": "Passively stuns enemies under 20% HP within a 50m radius." }
+]

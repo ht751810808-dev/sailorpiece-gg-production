@@ -1,0 +1,50 @@
+[
+  {
+    "id": "c1",
+    "code": "THEINSANE150KCCU",
+    "reward": "Rewards (Req Lv 8,500)",
+    "status": "Active",
+    "addedDate": "2026-03-10",
+    "type": "boost"
+  },
+  {
+    "id": "c2",
+    "code": "TYFOR140KCCUILY",
+    "reward": "Rewards (Req Lv 8,500)",
+    "status": "Active",
+    "addedDate": "2026-03-08",
+    "type": "boost"
+  },
+  {
+    "id": "c3",
+    "code": "RESTARTSORRYYYY",
+    "reward": "Rewards (Req Lv 5,000)",
+    "status": "Active",
+    "addedDate": "2026-03-05",
+    "type": "compensation"
+  },
+  {
+    "id": "c4",
+    "code": "BOSSRUSH",
+    "reward": "250k Beli, 400 Gems, Multi-Rerolls",
+    "status": "Active",
+    "addedDate": "2026-03-01",
+    "type": "currency"
+  },
+  {
+    "id": "c5",
+    "code": "30MVISITS",
+    "reward": "Free Rewards (Req Lv 8,000)",
+    "status": "Active",
+    "addedDate": "2026-02-28",
+    "type": "milestone"
+  },
+  {
+    "id": "c6",
+    "code": "GEAR5",
+    "reward": "Expired Rewards",
+    "status": "Expired",
+    "addedDate": "2025-12-01",
+    "type": "event"
+  }
+]

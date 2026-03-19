@@ -51,7 +51,7 @@ export default function Hero() {
       {/* 背景图 */}
       <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
         {/* 这里假设你有一个适合海贼王风格的占位符背景图 */}
-        <div style={{ width: '100%', height: '100%', backgroundColor: '#0B132B' }} />
+        <div style={{ width: '100%', height: '100%', background: 'url(/images/hero-bg.webp) center/cover no-repeat' }} />
         {/* 渐变遮罩 */}
         <div
           style={{

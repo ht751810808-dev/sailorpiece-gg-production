@@ -1,0 +1,44 @@
+[
+  {
+    "id": "c1",
+    "name": "Sasaki",
+    "rarity": "Common",
+    "buff": "+7% Damage, +10% Health, +10% Experience Gained"
+  },
+  {
+    "id": "c2",
+    "name": "Raikage",
+    "rarity": "Uncommon",
+    "buff": "+10% Damage, +15% Health, +10% Money Gained, +10% Jump Height"
+  },
+  {
+    "id": "c3",
+    "name": "Zoldyck",
+    "rarity": "Rare",
+    "buff": "+15% Damage, +20% Health, +20% Sprint Speed, +15% Gems Gain"
+  },
+  {
+    "id": "c4",
+    "name": "Mugetsu",
+    "rarity": "Epic",
+    "buff": "+25% Max HP, +20% Damage, +2% Lifesteal, +5% Damage Reduction"
+  },
+  {
+    "id": "c5",
+    "name": "Yamato",
+    "rarity": "Epic",
+    "buff": "+27% Max HP, +17% Damage, +5% Melee Damage, +20% Gems Gained"
+  },
+  {
+    "id": "c6",
+    "name": "Monarch",
+    "rarity": "Legendary",
+    "buff": "+40% Max HP, +27% Damage, +10% Luck, +7% Sword Damage, 20% Extra Drop Chance"
+  },
+  {
+    "id": "c7",
+    "name": "Voldigoat",
+    "rarity": "Legendary",
+    "buff": "+35% Max HP, +25% Damage, +10% Damage Reduction, deals +25% DMG to NPCs below 50% HP"
+  }
+]

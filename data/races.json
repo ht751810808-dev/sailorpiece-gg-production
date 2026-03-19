@@ -1,0 +1,30 @@
+[
+  {
+    "id": "galevorn",
+    "name": "Galevorn",
+    "rarity": "Legendary (1%)",
+    "buffs": ["+30% Aerial Damage", "Infinite Sky Jumps", "+15% Speed"],
+    "imageUrl": "/images/scraped/races_galevorn.webp"
+  },
+  {
+    "id": "servant",
+    "name": "Servant Class",
+    "rarity": "Mythical (0.1%)",
+    "buffs": ["+40% All Damage", "Noble Phantasm Meter", "1.5x Healing Rate"],
+    "imageUrl": "/images/scraped/races_servant.webp"
+  },
+  {
+    "id": "sunborn",
+    "name": "Sunborn",
+    "rarity": "Rare (15%)",
+    "buffs": ["+20% Fire Damage", "Immunity to Burn", "Regenerate HP during daytime"],
+    "imageUrl": "/images/scraped/races_sunborn.webp"
+  },
+  {
+    "id": "swordblessed",
+    "name": "Swordblessed",
+    "rarity": "Epic (5%)",
+    "buffs": ["+25% Sword Damage", "+10% Sword Range", "Reduces Cooldowns of M1s"],
+    "imageUrl": "/images/scraped/races_swordblessed.webp"
+  }
+]
