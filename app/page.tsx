@@ -54,13 +54,16 @@ export default function HomePage() {
         <Hero />
         <CodesSection />
         <WikiCategories />
+        <AdsterraNative slot={1} />
         <LiveMeta />
         <TierListSection />
+        <AdsterraNative slot={2} />
         <Features />
+        <AdsterraNative slot={3} />
         <FAQ />
+        <AdsterraNative slot={4} />
         <FinalCTA />
       </main>
-      <AdsterraNative />
       <Footer />
     </>
   );

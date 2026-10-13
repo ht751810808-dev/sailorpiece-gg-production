@@ -2,14 +2,28 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-/** A single provider-issued native placement, after the homepage content. */
-export default function AdsterraNative() {
+type AdSlot = 1 | 2 | 3 | 4;
+type NativeUnit = { src: string; containerId: string };
+
+// The current unit is one 4:1 widget. Add only separately issued units to other slots.
+const units: Record<AdSlot, NativeUnit | null> = {
+  1: {
+    src: "https://pl31805566.profitableratecpmnetwork.com/efd23f82624d0d540b21447082785a9d/invoke.js",
+    containerId: "container-efd23f82624d0d540b21447082785a9d",
+  },
+  2: null,
+  3: null,
+  4: null,
+};
+
+export default function AdsterraNative({ slot }: { slot: AdSlot }) {
+  const unit = units[slot];
   const host = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {
     const element = host.current;
-    if (!element) return;
+    if (!unit || !element) return;
     const placement = element.querySelector('[id^="container-"]');
     const hasCreative = () => Boolean(placement?.querySelector('iframe, img, video, a[href]'));
     let expired = false;
@@ -18,7 +32,7 @@ export default function AdsterraNative() {
     if (placement) observer.observe(placement, { childList: true, subtree: true });
     const timeout = window.setTimeout(() => { expired = true; update(); }, 12000);
     const script = document.createElement('script');
-    script.src = 'https://pl31805566.profitableratecpmnetwork.com/efd23f82624d0d540b21447082785a9d/invoke.js';
+    script.src = unit.src;
     script.async = true;
     script.dataset.cfasync = 'false';
     element.appendChild(script);
@@ -27,10 +41,12 @@ export default function AdsterraNative() {
       observer.disconnect();
       script.remove();
     };
-  }, []);
+  }, [unit]);
+
+  if (!unit) return null;
 
   return (
-    <aside aria-label="Advertisement" data-adsterra-native style={{
+    <aside aria-label="Advertisement" data-adsterra-native data-adsterra-slot={slot} style={{
       display: visible ? 'block' : 'none',
       boxSizing: 'border-box', width: '100%', maxWidth: '1120px',
       margin: '40px auto', padding: '24px 16px', overflow: 'hidden',
@@ -40,7 +56,7 @@ export default function AdsterraNative() {
       <p style={{ margin: '0 0 16px', textAlign: 'center', fontSize: '11px',
         lineHeight: 1.5, letterSpacing: '0.08em', opacity: 0.7 }}>Advertisement</p>
       <div ref={host} style={{ width: '100%', minWidth: 0, maxWidth: '100%', minHeight: '180px' }}>
-        <div id="container-efd23f82624d0d540b21447082785a9d" style={{ maxWidth: '100%' }} />
+        <div id={unit.containerId} style={{ maxWidth: '100%' }} />
       </div>
     </aside>
   );
