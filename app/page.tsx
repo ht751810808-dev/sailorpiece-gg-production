@@ -1,3 +1,4 @@
+import AdsterraNative from "@/components/AdsterraNative";
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import CodesSection from '@/components/CodesSection';
@@ -59,6 +60,7 @@ export default function HomePage() {
         <FAQ />
         <FinalCTA />
       </main>
+      <AdsterraNative />
       <Footer />
     </>
   );
