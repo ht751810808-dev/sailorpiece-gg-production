@@ -1,4 +1,3 @@
-'use client';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import fruitsData from '@/data/fruits.json';
@@ -7,7 +6,10 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import RadarChart from '@/components/RadarChart';
 
-// We use 'use client' because of state and charts
+export function generateStaticParams() {
+  return fruitsData.map(({ id }) => ({ id }));
+}
+
 export default function FruitDetailPage({ params }: { params: { id: string } }) {
   const fruit = fruitsData.find(f => f.id === params.id);
   

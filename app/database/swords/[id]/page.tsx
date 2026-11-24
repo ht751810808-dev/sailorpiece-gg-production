@@ -5,6 +5,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
+export function generateStaticParams() {
+  return swordsData.map(({ id }) => ({ id }));
+}
+
 export default function SwordDetailPage({ params }: { params: { id: string } }) {
   const sword = swordsData.find(s => s.id === params.id);
   

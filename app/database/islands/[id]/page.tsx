@@ -1,9 +1,12 @@
-'use client';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import islandsData from '@/data/islands.json';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+
+export function generateStaticParams() {
+  return islandsData.map(({ id }) => ({ id }));
+}
 
 export default function IslandDetailPage({ params }: { params: { id: string } }) {
   const island = islandsData.find(i => i.id === params.id);

@@ -1,11 +1,10 @@
 import { MetadataRoute } from 'next';
 import fruitsData from '@/data/fruits.json';
 import swordsData from '@/data/swords.json';
-import bossesData from '@/data/bosses.json';
 import islandsData from '@/data/islands.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://endfield.click';
+  const baseUrl = 'https://www.sailorpiece.help';
 
   // Base routes
   const routes = [
@@ -29,9 +28,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/tools/price-guide',
     '/tools/compare',
     '/tools/calculator',
+    '/tools/damage-calculator',
     '/guides',
     '/news',
-    '/faq',
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),

@@ -1,0 +1,12 @@
+{
+  "name": "sailorpiece-gg-production",
+  "account_id": "ae359d6fdbae3a265e5d669764a49b9c",
+  "compatibility_date": "2026-11-24",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./out",
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
